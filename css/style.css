@@ -22,7 +22,6 @@ body{
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 1.6em;
-    text-transform: uppercase;
     border: 0px;
     margin: 0px;
     line-height: 20px;
@@ -81,16 +80,24 @@ body{
   
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+    .visible-xs{
+        visibility: hidden;
+    }
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  
+    .visible-xs{
+        visibility: hidden;
+    }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+    .visible-xs{
+        visibility: hidden;
+    }
 
 }
 
